@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { UserModel, IUser } from './user.js';
+import { UserModel, IUser } from './models/user.js';
 
 async function main() {
   mongoose.set('strictQuery', true); // Mantiene el comportamiento actual
@@ -36,5 +36,3 @@ async function main() {
 }
 
 main()
-
-    
